@@ -14,3 +14,6 @@ echo "image successfully pushed to ECR"
 
 sed -i s#849440486996.dkr.ecr.us-east-1.amazonaws.com/apprepo:32#849440486996.dkr.ecr.us-east-1.amazonaws.com/apprepo:$version#g taskdef.json
 
+aws ecs register-task-definition --cli-input-json file://taskdef.json --region us-east-1
+
+
