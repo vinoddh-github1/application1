@@ -3,7 +3,7 @@
 
            {
               "name": "apprepo-container",
-               "image": "202714190885.dkr.ecr.ap-south-1.amazonaws.com/apprepo:32",
+               "image": "849440486996.dkr.ecr.us-east-1.amazonaws.com/apprepo:32",
                "cpu": 0,
                "portMappings": [
                    {
