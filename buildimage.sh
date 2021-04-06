@@ -12,5 +12,5 @@ echo "image successfully pushed to ECR"
 
 #Create new task definition with new version of build number
 
-sed -i '' s#849440486996.dkr.ecr.us-east-1.amazonaws.com/apprepo:32#849440486996.dkr.ecr.us-east-1.amazonaws.com/apprepo:$version#g taskdef.json
+sed -i s#849440486996.dkr.ecr.us-east-1.amazonaws.com/apprepo:32#849440486996.dkr.ecr.us-east-1.amazonaws.com/apprepo:$version#g taskdef.json
 
